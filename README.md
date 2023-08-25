@@ -1,36 +1,32 @@
-# CLIP - [CLIP SHORT NAME]
+# Continental farmland comparison, 1992 to 2015
 
 ## Background on this CLIP
-[SHORT DESCRIPTION ON WHAT THE CLIP SHOWS AND WHY IT MATTERS IN TERMS OF CLIMATE DATAVIZ (500-600 CHARACTERS)]
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at vestibulum nulla, ac tincidunt sem. Morbi in nisl at nisl feugiat faucibus sed eu neque. In fringilla, odio eu porttitor condimentum, tortor leo congue justo, id venenatis metus lectus sed libero. Mauris id arcu eros. Sed orci mauris, tincidunt nec ex non, eleifend pellentesque dolor. Mauris tellus ligula, tincidunt accumsan sapien accumsan, pellentesque rhoncus ex. Phasellus sollicitudin dolor eget porttitor gravida. Integer malesuada vehicula ante, ac interdum felis congue nec. Mauris in sagittis felis. 
+This infographic shows the comparative change in land used for farming, in four countries across four continents, from 1992 to 2015.  This comparison shows how land used for farming has grown in some countries and reduced in others during the period measured.  Increasing use of land for farming leads to a drop in available habitat for wildlife and a general drop in biodiversity.
 
+Calculation range: 17% (-5% to +12%) of total lc class data for each country
+Countries studied (left to right): The Netherlands (Europe), Nicaragua (Americas), New Zealand (Oceania) and Nigeria (Africa)
 
 ## Data Sources
-[LIST OF ALL DATASOURCES AND SPECIFIC DATASETS USED IN THE CREATION OF THE CLIP]
 
 The CLIP uses the following datasets:
-- [ESA Open Data website](https://climate.esa.int/de/odp/#/dashboard)
+- [Global Land Cover Maps, Version 2.0.7](https://catalogue.ceda.ac.uk/uuid/62c0f97b1eac4e0197a674870afe1ee6)
+- Datapoint: country lc class areas (mosaic >50% cropland / <50% natural tree, shrub, herbaceous cover)
 
 ## Data Preparation
-[STEP BY STEP DESCRIPTION ON WHAT THE DATA PROCESSING PROCESS. SHOULD BEGIN WITH A SHORT SUMMARY OF THE OVERALL PROCESS]
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at vestibulum nulla, ac tincidunt sem. Morbi in nisl at nisl feugiat faucibus sed eu neque. In fringilla, odio eu porttitor condimentum, tortor leo congue justo, id venenatis metus lectus sed libero. Mauris id arcu eros. Sed orci mauris, tincidunt nec ex non, eleifend pellentesque dolor. Mauris tellus ligula, tincidunt accumsan sapien accumsan, pellentesque rhoncus ex. Phasellus sollicitudin dolor eget porttitor gravida. Integer malesuada vehicula ante, ac interdum felis congue nec. Mauris in sagittis felis. 
 
 To prepare the data, follow these steps:
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at vestibulum nulla, ac tincidunt sem. Morbi in nisl at nisl feugiat faucibus sed eu neque. 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at vestibulum nulla, ac tincidunt sem. Morbi in nisl at nisl feugiat faucibus sed eu neque. 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at vestibulum nulla, ac tincidunt sem. Morbi in nisl at nisl feugiat faucibus sed eu neque. 
+- Download the CSV file for the country(ies) you'd like to study and open in an appropriate editor.
+- Locate the column for the datapoint you're interested in. In the example provided, this was 'Mosaic: > 50% cropland/< 50 % natural tree, shrub, herbaceous cover', which represents farmland coverage.
+- Change the format of the yearly values to 0 decimal places, to round to the nearest full number (for simplicity)
+- Measure the highest and lowest value of the datapoints in each of the countries under study, and work out the comparative range. In the example provided, the comparative range is 17% (from -5% to +12%) of total lc in the measured datapoint.
 
 ## Creating Visualizations
-[STEP BY STEP DESCRIPTION ON WHAT THE DATA PROCESSING PROCESS. SHOULD BEGIN WITH A SHORT SUMMARY OF THE OVERALL PROCESS]
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at vestibulum nulla, ac tincidunt sem. Morbi in nisl at nisl feugiat faucibus sed eu neque. In fringilla, odio eu porttitor condimentum, tortor leo congue justo, id venenatis metus lectus sed libero. Mauris id arcu eros. Sed orci mauris, tincidunt nec ex non, eleifend pellentesque dolor. Mauris tellus ligula, tincidunt accumsan sapien accumsan, pellentesque rhoncus ex. Phasellus sollicitudin dolor eget porttitor gravida. Integer malesuada vehicula ante, ac interdum felis congue nec. Mauris in sagittis felis. 
-
-To create a new visualization, follow these steps:
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at vestibulum nulla, ac tincidunt sem. Morbi in nisl at nisl feugiat faucibus sed eu neque. 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at vestibulum nulla, ac tincidunt sem. Morbi in nisl at nisl feugiat faucibus sed eu neque. 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at vestibulum nulla, ac tincidunt sem. Morbi in nisl at nisl feugiat faucibus sed eu neque. 
+To create this visualization:
+- Create a vector shape, representing each country under study and vertically align them across a horizontal plane.
+- Create a line in the centre of the shapes, representing the start year of dataset. In the example provided, this was 1992.
+- Create an overlay shape for each country, to represent the comparitive rise or fall in % of land coverage for your chosen measurement, since the start of the dataset. 
 
 ## CREDITS & LICENSE
 - Idea by: [INSTITUTION](https://climate.esa.int/)
