@@ -28,8 +28,8 @@ To create this visualization:
 - Create an overlay shape for each country, to represent the comparitive rise or fall in % of land coverage for your chosen measurement, since the start of the dataset. 
 
 ## CREDITS & LICENSE
-- Idea by: [INSTITUTION](https://climate.esa.int/)
-- Processing Scripts by: [INSTITUTION](https://climate.esa.int/)
-- Visualization by: [INSTITUTION](https://climate.esa.int/)
+- Idea by: [Imperative Space](https://www.imperative.space)
+- Processing Scripts by: [Imperative Space](https://www.imperative.space)
+- Visualization by: [Imperative Space](https://www.imperative.space)
 
 The code in this repository is published under [CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/)
