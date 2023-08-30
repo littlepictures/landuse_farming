@@ -20,7 +20,7 @@ To prepare the data, follow these steps:
 - Round the values to the nearest full number, for simplicity
 - Measure the highest and lowest value for each of the countries under study, to work out the comparative range. In the example provided, the comparative range was 17% (from -5% to +12%) of total lc in the measured datapoint.
 
-## Creating Visualizations
+## Creating Visualisations
 
 To create this visualization:
 - Create a vector shape, representing each country under study and vertically align them across a horizontal plane.
